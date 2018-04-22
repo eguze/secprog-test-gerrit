@@ -1,0 +1,66 @@
+/* ------------------
+ styling for the tables
+ Reference from: http://www.smashingmagazine.com/2008/08/13/top-10-css-table-designs/5/
+   ------------------   */
+
+table {
+    border-spacing: 0;
+    width: 100%;
+	border: 0px;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 480px;
+	text-align: left;
+}
+
+#rounded-corner td {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: left;    
+}
+
+#rounded-corner th
+{
+	padding: 3px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 2px solid #fff;
+	color: #669;
+}
+
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+#rounded-corner th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+#rounded-corner th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+#rounded-corner th:only-child{
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}

@@ -1,0 +1,56 @@
+
+body{
+			background-image:url("../images/bg1.jpg");
+			background-repeat:repeat-y;
+			background-size:100%;
+			
+}
+
+h1{
+		color : MidnightBlue;
+		text-align:center;
+
+}
+
+h3{
+		font-size : 30px;
+		color : Navy;
+}
+
+select{
+		font-size : 14px;
+}
+
+p{
+		background-color:AliceBlue;
+		padding:15px;
+		font-weight : bold;
+		font-size : 16px;
+		border-radius: 1em;
+}
+
+hr{	
+	color:blue;	
+}
+
+
+#wrapper {	width:800px;
+			margin:0px auto;
+			padding:10px;
+			border: 5px solid;
+			border-color:darkslateblue; }
+					
+#bg1 {		background-color : LightSteelBlue;
+			padding:15px;
+}
+					
+#tile{		background-image:url("../images/cloud.jpg");
+			background-repeat:no-repeat;
+			margin-left: auto;
+			margin-right: auto;
+			height:70px;
+			width:150px;
+			background-size:100%;
+			padding:30px 30px 30px 30px;
+			position:center;
+}

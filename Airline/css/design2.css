@@ -1,0 +1,69 @@
+
+body{
+			background-image:url("../images/blue.jpg");
+			background-repeat:repeat-y;
+			background-size:100%;
+			text-align:center;
+			padding:30px;
+}
+
+a {
+		font-size : 20px;
+		color:white;
+		text-decoration:none;
+}
+
+a:link img { color: black; }
+a:hover img { color: blue; }
+a:hover { color: blue; }
+
+h1{
+		color : MidnightBlue;
+		text-align:center;
+}
+
+h2{
+		color : Navy;
+}
+
+table{
+			font-family: "Consolas", "Lucida Grande", Sans-Serif;
+			border-style: dashed blue;
+			font-size:19px;
+			font-weight:bold;
+			padding:5px;
+}
+
+#p{
+		padding:25px 25px 25px 25px;
+}
+
+#box{  		
+			padding: 50px;
+			margin-top: 50px;
+			font-size: 35;
+			background-image : url("../images/tile.jpg");
+			width: 328px;
+			height: 400px;
+			float: center;
+			border-radius: 0.7em;
+			border:2px white;
+}
+
+#box2{
+				width: 150px;
+				height: 30px;
+				padding:2px;
+				background-color : LightSteelBlue;
+				border : 2px solid blue;
+				border-radius:2em;
+}
+
+#board{
+				background-color: MediumSlateBlue;
+				border : 2px dotted blue;
+				width : 300px;
+				height : 30px;
+				padding:5px;
+				border-radius:0.5em;
+}
